@@ -1,0 +1,4 @@
+
+2. JS Challenge - 45 characters in length
+
++[+[+!![]]+[+!![]+ +!![]]+[+!![]+ +!![]+ +!![]]]

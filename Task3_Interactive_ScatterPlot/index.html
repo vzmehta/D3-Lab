@@ -1,0 +1,48 @@
+<html>
+<head>
+<style>
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: #eee;
+        shape-rendering: crispEdges;
+    }
+
+    .axis text {
+        font-family: sans-serif;
+        font-size: 11px;
+    }
+
+    .loading {
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+
+    .circle {
+        fill: #222;
+    }
+</style>
+</head>
+<body>
+    <h4 id="hovered">chevrolet chevelle malibu</h4>
+    <div class="content">
+        <svg></svg>
+    </div>
+    <div class="ui">
+        <div>
+            <label>X-Axis</label>
+            <select id="sel-x"></select>
+            <select id="sel-y"></select>
+            </div>
+            <div>
+                <input id="min" type="text" value="0" size="10">
+                <input id="max" type="text" value="30" size="10">
+                <button id="update">Query</button>
+            </div>
+        </div>
+    </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="script.js"></script>
+</body>
+</html>
